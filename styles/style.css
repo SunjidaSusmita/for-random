@@ -1,0 +1,117 @@
+.header{
+    background-color: rgb(247, 235, 219);
+    background-image: url(../images/header_bg.png), url(../images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+}
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 200px 0;
+}
+nav li{
+    list-style: none;
+    margin : 10px 20px;
+}
+nav ul{
+    display : flex;
+    font-size: 20px;
+    align-items: center;
+}
+.text-color{
+    color: #fd6e0a;
+}
+.btn{
+    color: aliceblue;
+    padding: 20px 40px;
+    border-radius: 5px;
+    border: 0;
+    background-color: #fd6e0a;
+    font-weight: 700;
+    font-size: 20px;
+}
+.banner{
+    margin: 0 200px;
+    display: flex;
+    align-items: center;
+}
+#banner-sub{
+    font-size: 40px;
+    color: rgb(95, 93, 93);
+}
+#banner-title{
+    font-size: 60px;
+}
+#description{
+    color: rgb(123, 121, 121);
+    font-size: 20px;
+}
+.img{
+    position: relative;
+    left: 150px;
+}
+/* main section */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.about{
+    margin-top: 130px;
+    background: rgb(245, 232, 215);
+    border-radius: 5px;
+    padding: 100px 120px;
+    text-align: center;
+}
+.sec-title{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.sec-description{
+    
+    font-size: 20px;
+    color: rgb(123, 121, 121);
+    margin-bottom: 50px;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.info-title{
+    font-size: 20px;
+    color: rgb(123, 121, 121);
+}
+.info-description{
+    font-size: 18px;
+    font-weight: 700;
+    color: rgb(45, 44, 44);
+}
+/*second section*/
+.what-i-do{
+    text-align: center;
+    margin-top: 130px;
+}
+.skill-container{
+    display: flex;
+}
+.skill{
+    text-align: left;
+    background: white;
+    margin-right: 20px;
+    padding: 20px 20px;
+    border-radius: 5px;
+    box-shadow: 0 5px 5px 0 gray;
+}
+.skill-title{
+    font-size: 20px;
+    font-weight: 700;
+    color: black;
+    margin-top: 40px;
+}
+.resume{
+    color: black;
+    font-weight: 700;
+}
